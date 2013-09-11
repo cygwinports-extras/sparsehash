@@ -1,0 +1,10 @@
+--- origsrc/sparsehash-2.0.2/Makefile.am	2012-02-22 14:46:06.000000000 -0600
++++ src/sparsehash-2.0.2/Makefile.am	2013-09-10 21:39:24.235374900 -0500
+@@ -11,7 +11,6 @@ if GCC
+ AM_CXXFLAGS = -Wall -W -Wwrite-strings -Woverloaded-virtual -Wshadow
+ endif
+ 
+-docdir = $(prefix)/share/doc/$(PACKAGE)-$(VERSION)
+ ## This is for HTML and other documentation you want to install.
+ ## Add your documentation files (in doc/) in addition to these boilerplate
+ ## Also add a TODO file if you have one

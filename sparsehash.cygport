@@ -1,0 +1,12 @@
+NAME="sparsehash"
+VERSION=2.0.2
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="Memory-efficient C++ hash_map implementation"
+DESCRIPTION="The SparseHash library contains several hash-map implementations,
+including implementations that optimize for space or speed. These hashtable
+implementations are similar in API to SGI's hash_map class and the tr1
+unordered_map class, but with different performance characteristics."
+HOMEPAGE="https://code.google.com/p/sparsehash/"
+SRC_URI="https://sparsehash.googlecode.com/files/sparsehash-${VERSION}.tar.gz"
+PATCH_URI="2.0.2-docdir.patch"
